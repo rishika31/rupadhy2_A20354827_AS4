@@ -16,6 +16,8 @@
         <tr>
             <td>ID</td>
             <td>Description</td>
+            <td>Price</td>
+            <td>Quantity</td>
             <td></td>
         </tr>
         </thead>
@@ -24,6 +26,8 @@
             <tr>
                 <td>{{ $value->id }}</td>
                 <td>{{ $value->description }}</td>
+                <td>{{ $value->price }}</td>
+                <td>{{ $value->quantity }}</td>
                 <td>
                     <!-- delete the item (uses the destroy method DESTROY /items/{id} -->
                     {!! Form::open(array('url' => 'items/' . $value->id, 'class' => 'pull-right')) !!}

@@ -10,7 +10,9 @@
     <h2>{{ $item->description }}</h2>
     <p>
         <strong>ID:</strong> {{ $item->id }}<br>
-        <strong>Description:</strong> {{ $item->description }}
+        <strong>Description:</strong> {{ $item->description }}<br>
+        <strong>Price:</strong> {{ $item->price }}<br>
+        <strong>Quantity:</strong> {{ $item->quantity }}
     </p>
 </div>
 
